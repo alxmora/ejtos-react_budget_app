@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  
+  /* <select> styles */
+  .custom-select {
+    /* Reset */
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 20em;
+    height: 2.4em;
+    padding: 0 4em 0 1em;
+    background-color: #3070e6;
+    color: rgb(232, 232, 232);
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* <option> colors */
+    /* Remove focus outline */
+    /* Remove IE arrow */
+  }
+  .custom-select option {
+    color: inherit;
+    background-color: #320a28;
+  }
+  .custom-select:focus {
+    outline: none;
+  }
+  .custom-select::-ms-expand {
+    display: none;
+  }
+
+  .increaseBtn {
+      background-color: rgb(151, 228, 151);
+      color: black;
+      font-size: 1em;
+      border-radius: 50px;
+      width: 40px;
+      height: 40px;
+      border: none;
+  }
+
+  .decreaseBtn {
+    background-color: rgb(228, 151, 151);
+    color: black;
+    font-size: 1em;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
